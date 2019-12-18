@@ -1,0 +1,267 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.head {
+    background-color: black;
+    width: 100%;
+    height: 50px;
+}
+
+.head-img-first {
+    margin: 0px;
+    padding: 0px;
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+
+.head-img-first-github {
+    width: 30px;
+    height: 30px;
+    margin: 10px 15px;
+}
+
+.head-title {
+    float: left;
+    margin: 15px 35px;
+}
+
+.head-title-a {
+    text-decoration: none;
+    margin: 0px 10px;
+}
+
+.head-title-a:link {
+    color: white;
+}
+
+.head-title-a:visited {
+    color: white;
+}
+
+.head-img-second {
+    width: 30px;
+    height: 30px;
+    margin: 10px 25px 0px 0px;
+    padding: 0px;
+    float: right;
+}
+
+.head-img-second-bell {
+    width: 25px;
+    height: 25px;
+}
+
+.head-img-third {
+    width: 60px;
+    height: 30px;
+    margin: 10px 25px 0px 0px;
+    padding: 0px;
+    float: right;
+}
+
+.head-img-third-plus, .head-img-third-trangle {
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin: 4px 0px 0px 0px;
+}
+
+.head-img-four {
+    width: 60px;
+    height: 30px;
+    margin: 10px 25px 0px 0px;
+    padding: 0px;
+    float: right;
+}
+
+.head-img-four-touxiang, .head-img-four-trangle {
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin: 4px 2px 0px 0px;
+}
+
+.welcome {
+    margin: 0px 0px 0px 0px;
+}
+
+.welcome-h1 {
+    margin: 50px 0px -20px 15%;
+}
+
+.welcome-p {
+    margin: 0px 0px 50px 15%;
+}
+
+.step-class-table {
+    height: 70px;
+    width: 70%;
+    margin: 0 15%;
+}
+
+.step-class-table-firstimg, .step-class-table-secondimg, .step-class-table-thirdimg {
+    height: 35px;
+    margin: 0px 10px 0px 15px;
+    float: left;
+}
+
+table.step-class-table {
+    font-family: verdana, arial, sans-serif;
+    font-size: 11px;
+    color: #333333;
+    border-width: 1px;
+    border-color: #666666;
+    border-collapse: collapse;
+}
+
+.step-class-step{
+    font-size: 15px;
+}
+.step-class-step2{
+    font-size: 13px;
+}
+
+table.step-class-table th {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #666666;
+    background-color: #dedede;
+}
+
+table.step-class-table td {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #666666;
+    background-color: #ffffff;
+}
+
+.body-left {
+    width: 30%;
+    margin: 80px 0px 0px 15%;
+
+    float: left;
+}
+
+.body-right {
+    width: 20%;
+    float: right;
+    margin: 80px 15% 0px 0px;
+    border: #bdc3c7 solid 1px;
+}
+
+.body-left-input {
+    width: 100%;
+    height: 20px;
+}
+
+
+.body-left-fourimg {
+    width: 50px;
+    /*text-align:center;*/
+    margin: auto;
+
+}
+
+
+#login_click {
+    margin-top: 32px;
+    height: 40px;
+}
+
+#login_click a {
+    text-decoration: none;
+    background: #2f435e;
+    color: #f2f2f2;
+    padding: 10px 30px 10px 30px;
+    font-size: 16px;
+    font-family: 微软雅黑, 宋体, Arial, Helvetica, Verdana, sans-serif;
+    font-weight: bold;
+    border-radius: 3px;
+    /*-webkit-transition: all linear 0.30s;*/
+    /*-moz-transition: all linear 0.30s;*/
+    /*transition: all linear 0.30s;*/
+}
+
+#login_click a:hover {
+    background: #385f9e;
+}
+
+.body-left-fiveimg {
+    width: 10px;
+}
+
+
+.body-left-input {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 7px 0;
+    background: #F4F4F7;
+    border-radius: 3px;
+    padding-left: 5px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
+}
+
+.body-left-input:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6)
+}
+
+.body-left-before{
+    font-size: 15px;
+    margin: 5px 0px 10px 0px;
+}
+.body-left-after{
+    font-size: 12px;
+    margin: 5px 0px 20px 0px;
+}
+.body-left-yanzheng{
+    font-size: 15px;
+    margin: 40px 0px 20px 0px;
+}
+.body-left-shuoming{
+    font-size: 12px;
+    margin: 15px 0px 15px 0px;
+}
+
+.body-right-1{
+    margin: 15px 0px 15px 20px;
+}
+.body-right-1-span{
+    font-size: 16px;
+    margin: 15px 0px 15px 0px;
+}
+.body-right-2{
+    margin: 15px 0px 15px 20px;
+}
+.body-right-2-span{
+    font-size: 14px;
+    margin: 15px 0px 15px 0px;
+}
+.body-right-3{
+    margin: 15px 0px 15px 20px;
+}
+.body-right-3-span{
+    font-size: 14px;
+    margin: 15px 0px 15px 0px;
+}
+
+.user_email_tip,.user_password_tip,.user_username_tip{
+    position: absolute;
+    right: 0%;
+    top: 24%;
+    font-size: 13px;
+}
+.FUCK\!{
+    position:relative;
+}

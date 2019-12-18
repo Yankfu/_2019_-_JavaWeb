@@ -1,0 +1,140 @@
+body{
+    margin: 0px;
+}
+.head{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+}
+.head-img-first{
+    margin: 0px;
+    padding: 0px;
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+.head-img-first-github{
+    width: 30px;
+    height: 30px;
+    margin: 10px 15px;
+}
+.head-title{
+    float: left;
+    margin: 15px 35px;
+}
+.head-title-a{
+    text-decoration: none;
+    margin: 0px 10px;
+}
+.head-title-a:link{
+    color: white;
+}
+.head-title-a:visited{
+    color: white;
+}
+.head-img-second{
+    width: 30px;
+    height: 30px;
+    margin: 10px 25px 0 0;
+    padding: 0;
+    float: right;
+}
+.head-img-second-bell{
+    width: 25px;
+    height: 25px;
+}
+.head-img-third{
+    width: 60px;
+    height: 30px;
+    margin: 10px 25px 0 0;
+    padding: 0;
+    float: right;
+}
+.head-img-third-plus,.head-img-third-trangle{
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin: 4px 0px 0px 0px;
+}
+.head-img-four{
+    width: 60px;
+    height: 30px;
+    margin: 10px 25px 0px 0px;
+    padding: 0px;
+    float: right;
+}
+.head-img-four-touxiang,.head-img-four-trangle{
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin: 4px 2px 0px 0px;
+}
+
+
+/*body*/
+
+/*body左边的导航栏*/
+.main-body-left{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    width: 15%;
+    float: left;
+    border: 1px solid black;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+.main-body{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+.ant-btn {
+    width: 100%;
+    height: 50px;
+    line-height: 1.499;
+    position: relative;
+    display: inline-block;
+    font-weight: 400;
+    white-space: nowrap;
+    text-align: center;
+    background-image: none;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+    -webkit-box-shadow: 0 2px 0 rgba(0,0,0,0.015);
+    box-shadow: 0 2px 0 rgba(0,0,0,0.015);
+    cursor: pointer;
+    -webkit-transition: all .3s cubic-bezier(.645, .045, .355, 1);
+    transition: all .3s cubic-bezier(.645, .045, .355, 1);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    height: 32px;
+    padding: 0 15px;
+    font-size: 14px;
+    border-radius: 1px;
+    color: rgba(0,0,0,0.65);
+    background-color: #fff;
+    border-color: #d9d9d9;
+}
+
+.ant-btn-primary {
+    color: black;
+    background-color: #1890ff;
+    border-color: #1890ff;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.12);
+    -webkit-box-shadow: 0 2px 0 rgba(0,0,0,0.045);
+    box-shadow: 0 2px 0 rgba(0,0,0,0.045);
+}
+.ant-btn-red {
+    color: black;
+    background-color: white;
+    border-color: black;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.12);
+    -webkit-box-shadow: 0 2px 0 rgba(0,0,0,0.045);
+    box-shadow: 0 2px 0 rgba(0,0,0,0.045);
+}
